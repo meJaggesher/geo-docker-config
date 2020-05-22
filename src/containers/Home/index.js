@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Col, Row, Form, Card, Button } from "react-bootstrap";
 import { exportToJSON } from '../../utils/FileGenerator';
-import { myFromConfig } from '../../utils/FromConfig';
+import { myFromConfig } from '../../utils/FormConfig';
 import './index.scss';
 class Home extends Component {
     constructor(props) {
